@@ -1,0 +1,97 @@
+.loan-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: wheat;
+  }
+  
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    margin-top: 10px;
+    color:gray;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid aliceblue;
+    border-radius: 6px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #0b5ed7;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .controls select {
+    padding: 10px;
+    border: 1px solid aliceblue;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  .reset-btn {
+    padding: 10px 16px;
+    background-color: rgb(243, 155, 243);
+    color: black;
+    border: 1px solid rgb(241, 4, 241);
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .reset-btn:hover {
+    background-color: rgb(235, 16, 158);
+  }
+  
+  .schedule {
+    margin-top: 30px;
+    background-color:white;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+  }
+  
+  .schedule table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .schedule th, .schedule td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid aliceblue;
+  }
+  
+  .schedule th {
+    background-color: whitesmoke;
+    font-weight: bold;
+  }
+  
